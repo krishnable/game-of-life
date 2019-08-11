@@ -4,7 +4,7 @@ agent any
      triggers {
         pollSCM '* * * * *'
     }
-stages {
+stages {  
 stage('git') {
 steps {
 git branch: 'dev', url: 'https://github.com/krishnable/game-of-life.git'}
