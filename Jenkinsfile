@@ -4,7 +4,7 @@ agent any
 stages {
 stage('git') {
 steps {
-git branch: 'Feature-A', url: 'https://github.com/krishnable/game-of-life.git'
+git branch: 'Feature-B', url: 'https://github.com/krishnable/game-of-life.git'
 }
 }
 stage('build') {
